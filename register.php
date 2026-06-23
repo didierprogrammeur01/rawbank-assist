@@ -30,7 +30,8 @@ if(isset($_POST['register']))
 
         if(mysqli_query($conn, $sql))
         {
-            header("Location: login.php");
+            header("Location: login.php?success=1");
+exit();
             exit();
         }
         else
@@ -71,15 +72,51 @@ if(isset($_POST['register']))
 
         <input type="text" name="telephone" placeholder="Téléphone" required>
 
-        <input type="password" name="mot_de_passe" placeholder="Mot de passe" required>
+        <div class="password-box">
+
+<input
+    type="password"
+    id="password"
+    name="mot_de_passe"
+    placeholder="Mot de passe"
+    required>
+
+<span id="togglePassword">👁️</span>
+
+</div>
 
         <button type="submit" name="register">
             Créer mon compte
         </button>
+        <p>
+Déjà inscrit ?
+<a href="login.php">Se connecter</a>
+</p>
 
     </form>
 
 </div>
+<script>
 
+const togglePassword =
+document.getElementById('togglePassword');
+
+const password =
+document.getElementById('password');
+
+togglePassword.addEventListener('click', function(){
+
+    if(password.type === 'password'){
+        password.type = 'text';
+        this.innerHTML = '🙈';
+    }else{
+        password.type = 'password';
+        this.innerHTML = '👁️';
+    }
+
+});
+<script>
+</script>
+</script>
 </body>
 </html>
