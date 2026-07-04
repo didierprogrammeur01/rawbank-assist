@@ -22,7 +22,6 @@ if(!isset($_SESSION['user_id']))
 <h2>
 Bienvenue
 <?php echo $_SESSION['nom']; ?>
-👋
 </h2>
 
 <p>

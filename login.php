@@ -23,7 +23,7 @@ if(isset($_POST['login']))
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['nom'] = $user['nom'];
 
-            header("Location: dashboard.php");
+            header("Location: chatbot.php");
             exit();
         }
         else
@@ -39,7 +39,7 @@ if(isset($_POST['login']))
 ?>
 <?php if(isset($_GET['success'])): ?>
 <div class="success-message">
-    Compte créé avec succès 🎉
+    Compte créé avec succès 
 </div>
 <?php endif; ?>
 
@@ -86,12 +86,6 @@ if(isset($_POST['login']))
         </button>
 
     </form>
-
-    <p>
-        Pas encore de compte ?
-        <a href="register.php">Créer un compte</a>
-    </p>
-
 </div>
 <script>
 

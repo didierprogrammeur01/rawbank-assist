@@ -7,8 +7,10 @@ $database = "rawbank_assist";
 
 $conn = mysqli_connect($host, $user, $password, $database);
 
-if (!$conn) {
+if (!$conn)
+{
     die("Erreur de connexion : " . mysqli_connect_error());
 }
+mysqli_set_charset($conn,"utf8mb4");
 
 ?>
