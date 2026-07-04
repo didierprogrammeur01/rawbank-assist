@@ -1,18 +1,8 @@
 # 🏦 RawBank Assist
 
-RawBank Assist est une plateforme intelligente d'automatisation du service client bancaire grâce à un chatbot conversationnel.
+RawBank Assist est une application web développée dans le cadre d'un projet académique. Son objectif est d'améliorer le service client bancaire grâce à un chatbot conversationnel capable d'assister les utilisateurs.
 
-## 📌 Fonctionnalités
-
-- 🔐 Inscription des utilisateurs
-- 🔑 Connexion sécurisée
-- 🤖 Chatbot conversationnel
-- 👨‍💼 Assistance par conseiller
-- 📊 Tableau de bord
-- 💬 Envoi de messages
-- 🎨 Interface moderne et responsive
-
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - PHP
 - MySQL
@@ -20,52 +10,39 @@ RawBank Assist est une plateforme intelligente d'automatisation du service clien
 - CSS3
 - JavaScript
 
-## 📂 Structure du projet
+## Fonctionnalités principales
 
-```
-rawbank-assist/
-│
-├── config/
-├── images/
-├── chatbot.php
-├── chatbot.js
-├── conseiller.php
-├── dashboard.php
-├── envoyer_message.php
-├── index.php
-├── login.php
-├── logout.php
-├── register.php
-├── style.css
-└── README.md
-```
+- Authentification des utilisateurs
+- Tableau de bord
+- Chatbot conversationnel
+- Interface responsive
 
-## 🚀 Installation
+## Aperçu de l'application
 
-1. Cloner le dépôt
+### Page d'accueil
 
-```bash
-git clone https://github.com/didierprogrammeur01/rawbank-assist.git
-```
+![Page d'accueil](images/accueil.png)
 
-2. Copier le projet dans le dossier `www` de WampServer.
+### Connexion
 
-3. Importer la base de données MySQL.
+La page de connexion permet aux utilisateurs d'accéder à leur espace personnel de manière sécurisée.
 
-4. Configurer les paramètres de connexion dans `config/database.php`.
+![Page de connexion](images/login.png)
 
-5. Lancer WampServer puis ouvrir :
+### Tableau de bord
 
-```
-http://localhost/rawbank-assist
-```
+![Tableau de bord](images/dashboard.png)
 
-## 👨‍💻 Auteur
+### Chatbot
 
-**Didier Nsim**
+![Chatbot](images/chatbot.png)
 
-Étudiant en ingénierie informatique, passionné de développement web et d'intelligence artificielle.
+## Auteur
 
-## 📄 Licence
+**Ir Didier Nsim**
 
-Projet académique réalisé dans le cadre du mémoire de fin d'études.
+Étudiant en ingénierie informatique – Haute École de Commerce de Kinshasa
+
+---
+
+© 2026 Ir Didier Nsim. Tous droits réservés.

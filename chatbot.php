@@ -47,7 +47,7 @@ ORDER BY id_message ASC");
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>RawBank Assist</title>
+<title>Chatbot</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -65,7 +65,7 @@ ORDER BY id_message ASC");
 
             <div>
 
-                <h2>RawBank Assist</h2>
+                <h2>Chatbot</h2>
 
                 <span class="online">🟢 En ligne</span>
 
