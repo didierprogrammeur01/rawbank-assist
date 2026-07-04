@@ -21,21 +21,19 @@ RawBank Assist est une application web développée dans le cadre d'un projet ac
 
 ### Page d'accueil
 
-![Page d'accueil](images/accueil.png)
+![Page d'accueil](images/accueil.PNG)
 
 ### Connexion
 
 La page de connexion permet aux utilisateurs d'accéder à leur espace personnel de manière sécurisée.
 
-![Page de connexion](images/login.png)
-
+![Page de connexion](images/login.PNG)
 ### Tableau de bord
 
-![Tableau de bord](images/dashboard.png)
-
+![Tableau de bord](images/dashboard.PNG)
 ### Chatbot
 
-![Chatbot](images/chatbot.png)
+![Chatbot](images/chatbot.PNG)
 
 ## Auteur
 
